@@ -16,14 +16,76 @@ html(lang="es")
                 .pure-u-7-24
                     include blocks/search-form
                 .pure-u-1-3
+                    .link-search
+                        a(href="/") Guardar Busqueda
             aside.filters.pure-u-1-4
+                h3.search_save Busquedas Guardadas
+                ul
+                    li: a(href="/") Iten1
+
+                h3.category Categorías
+                ul
+                    li: a(href="/") Todos
+                    li: a(href="/") Terror
+                    li: a(href="/") Comedia
+                    li: a(href="/") Drama
+
+                h3.ideoma Idioma
+                ul
+                    li: a(href="/") Todos
+                    li: a(href="/") Inglés
+                    li: a(href="/") Español
+                    li: a(href="/") Portugués
+
+                h3.publicaction Publicación
+                ul
+                    li: a(href="/") Todos
+                    li: a(href="/") Hoy
+                    li: a(href="/") Hace una semana
+                    li: a(href="/") Hace un año
+
+                h3.presentation Presentación
+                ul
+                    li: a(href="/") Impreso
+                    li: a(href="/") Digital
+                    li: a(href="/") Impreso y digital
+
             content.pure-u-3-4
+                .cajas
+                    img(src="http://placehold.it/200x200")
+                    h4 Devil At The Catacombs
+                    p Lorem ipsum dolor sit amet  consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                .cajas
+                    img(src="http://placehold.it/200x200")
+                    h4 Devil At The Catacombs
+                    p Lorem ipsum dolor sit amet  consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                .cajas
+                    img(src="http://placehold.it/200x200")
+                    h4 Devil At The Catacombs
+                    p Lorem ipsum dolor sit amet  consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+
+                .cajas
+                    img(src="http://placehold.it/200x200")
+                    h4 Devil At The Catacombs
+                    p Lorem ipsum dolor sit amet  consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                .cajas
+                    img(src="http://placehold.it/200x200")
+                    h4 Devil At The Catacombs
+                    p Lorem ipsum dolor sit amet  consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                .cajas
+                    img(src="http://placehold.it/200x200")
+                    h4 Devil At The Catacombs
+                    p Lorem ipsum dolor sit amet  consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
             footer.pure-u-1
+                a(href="/") Anterior 
+                span | 
+                a(href="/") Siguiente
 
         //- third party libraries
         script(src="/vendor/underscore/underscore-min.js")
 
         //- app scripts self
+        script(src="/vendor/jquery/dist/jquery.js")
         script(src="/scripts/global.js")
         script(src="/scripts/search-form.js")
         script(src="/scripts/app.js")
